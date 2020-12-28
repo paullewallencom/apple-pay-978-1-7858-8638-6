@@ -1,0 +1,16 @@
+{
+  "name": "red",
+  "version": "1.0.0",
+  "description": "red server stack",
+  "main": "red.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ernest Bruce",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.1.6",
+    "restify": "^4.0.2",
+    "stripe": "^4.0.0"
+  }
+}

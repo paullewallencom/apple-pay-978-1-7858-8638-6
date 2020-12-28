@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174E84061BACB631006321F8 /* MerchantApp.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 174E84051BACA2EA006321F8 /* MerchantApp.entitlements */; };
+		177183931BA174DB0067A1D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 177183921BA174DB0067A1D7 /* main.m */; };
+		177183961BA174DB0067A1D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 177183951BA174DB0067A1D7 /* AppDelegate.m */; };
+		177183991BA174DB0067A1D7 /* ProductList.m in Sources */ = {isa = PBXBuildFile; fileRef = 177183981BA174DB0067A1D7 /* ProductList.m */; };
+		1771839C1BA174DB0067A1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1771839A1BA174DB0067A1D7 /* Main.storyboard */; };
+		1771839E1BA174DB0067A1D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1771839D1BA174DB0067A1D7 /* Images.xcassets */; };
+		177183A11BA174DB0067A1D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1771839F1BA174DB0067A1D7 /* LaunchScreen.xib */; };
+		1780BC791BA4AD1F00D19E92 /* ShippingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1780BC781BA4AD1F00D19E92 /* ShippingMethod.m */; };
+		17F2D88D1BA1ED3C004D4E46 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2D88C1BA1ED3C004D4E46 /* Product.m */; };
+		17F2D8901BA254A6004D4E46 /* ProductCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2D88F1BA254A6004D4E46 /* ProductCard.m */; };
+		17F2D8931BA26610004D4E46 /* ProductCard_DescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2D8921BA26610004D4E46 /* ProductCard_DescriptionCell.m */; };
+		17F2D8961BA2CBE5004D4E46 /* ProductCard_ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2D8951BA2CBE5004D4E46 /* ProductCard_ImageCell.m */; };
+		17F2D8991BA2CCE5004D4E46 /* RestIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2D8981BA2CCE5004D4E46 /* RestIO.m */; };
+		17F2D89C1BA2DED8004D4E46 /* ProductCard_TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2D89B1BA2DED8004D4E46 /* ProductCard_TableView.m */; };
+		17F2D89F1BA3088F004D4E46 /* ProductCard_BuyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2D89E1BA3088F004D4E46 /* ProductCard_BuyCell.m */; };
+		17F2D8A21BA34173004D4E46 /* ProductCard_BuyCellContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F2D8A11BA34173004D4E46 /* ProductCard_BuyCellContent.m */; };
+		17F2D8A61BA42166004D4E46 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F2D8A51BA42166004D4E46 /* Stripe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		176C3D191BD443DB006FE99E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		174E84051BACA2EA006321F8 /* MerchantApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MerchantApp.entitlements; sourceTree = SOURCE_ROOT; };
+		1771838D1BA174DB0067A1D7 /* MerchantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177183911BA174DB0067A1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177183921BA174DB0067A1D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		177183941BA174DB0067A1D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		177183951BA174DB0067A1D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		177183971BA174DB0067A1D7 /* ProductList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductList.h; sourceTree = "<group>"; };
+		177183981BA174DB0067A1D7 /* ProductList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductList.m; sourceTree = "<group>"; };
+		1771839B1BA174DB0067A1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1771839D1BA174DB0067A1D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		177183A01BA174DB0067A1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1780BC771BA4AD1F00D19E92 /* ShippingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShippingMethod.h; sourceTree = "<group>"; };
+		1780BC781BA4AD1F00D19E92 /* ShippingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShippingMethod.m; sourceTree = "<group>"; };
+		17A7490B1BBC6D4100664C9F /* private_keys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = private_keys.h; sourceTree = "<group>"; };
+		17F2D88B1BA1ED3C004D4E46 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		17F2D88C1BA1ED3C004D4E46 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		17F2D88E1BA254A6004D4E46 /* ProductCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCard.h; sourceTree = "<group>"; };
+		17F2D88F1BA254A6004D4E46 /* ProductCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCard.m; sourceTree = "<group>"; };
+		17F2D8911BA26610004D4E46 /* ProductCard_DescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCard_DescriptionCell.h; sourceTree = "<group>"; };
+		17F2D8921BA26610004D4E46 /* ProductCard_DescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCard_DescriptionCell.m; sourceTree = "<group>"; };
+		17F2D8941BA2CBE5004D4E46 /* ProductCard_ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCard_ImageCell.h; sourceTree = "<group>"; };
+		17F2D8951BA2CBE5004D4E46 /* ProductCard_ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCard_ImageCell.m; sourceTree = "<group>"; };
+		17F2D8971BA2CCE5004D4E46 /* RestIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestIO.h; sourceTree = "<group>"; };
+		17F2D8981BA2CCE5004D4E46 /* RestIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestIO.m; sourceTree = "<group>"; };
+		17F2D89A1BA2DED8004D4E46 /* ProductCard_TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCard_TableView.h; sourceTree = "<group>"; };
+		17F2D89B1BA2DED8004D4E46 /* ProductCard_TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCard_TableView.m; sourceTree = "<group>"; };
+		17F2D89D1BA3088F004D4E46 /* ProductCard_BuyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCard_BuyCell.h; sourceTree = "<group>"; };
+		17F2D89E1BA3088F004D4E46 /* ProductCard_BuyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCard_BuyCell.m; sourceTree = "<group>"; };
+		17F2D8A01BA34173004D4E46 /* ProductCard_BuyCellContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCard_BuyCellContent.h; sourceTree = "<group>"; };
+		17F2D8A11BA34173004D4E46 /* ProductCard_BuyCellContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCard_BuyCellContent.m; sourceTree = "<group>"; };
+		17F2D8A51BA42166004D4E46 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stripe.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1771838A1BA174DB0067A1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F2D8A61BA42166004D4E46 /* Stripe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177183841BA174DB0067A1D7 = {
+			isa = PBXGroup;
+			children = (
+				1771838F1BA174DB0067A1D7 /* MerchantApp */,
+				1771838E1BA174DB0067A1D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1771838E1BA174DB0067A1D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1771838D1BA174DB0067A1D7 /* MerchantApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1771838F1BA174DB0067A1D7 /* MerchantApp */ = {
+			isa = PBXGroup;
+			children = (
+				174E84051BACA2EA006321F8 /* MerchantApp.entitlements */,
+				177183941BA174DB0067A1D7 /* AppDelegate.h */,
+				177183951BA174DB0067A1D7 /* AppDelegate.m */,
+				17F2D8971BA2CCE5004D4E46 /* RestIO.h */,
+				17F2D8981BA2CCE5004D4E46 /* RestIO.m */,
+				17A7490B1BBC6D4100664C9F /* private_keys.h */,
+				177183971BA174DB0067A1D7 /* ProductList.h */,
+				177183981BA174DB0067A1D7 /* ProductList.m */,
+				17F2D88E1BA254A6004D4E46 /* ProductCard.h */,
+				17F2D88F1BA254A6004D4E46 /* ProductCard.m */,
+				17F2D89A1BA2DED8004D4E46 /* ProductCard_TableView.h */,
+				17F2D89B1BA2DED8004D4E46 /* ProductCard_TableView.m */,
+				17F2D8941BA2CBE5004D4E46 /* ProductCard_ImageCell.h */,
+				17F2D8951BA2CBE5004D4E46 /* ProductCard_ImageCell.m */,
+				17F2D8911BA26610004D4E46 /* ProductCard_DescriptionCell.h */,
+				17F2D8921BA26610004D4E46 /* ProductCard_DescriptionCell.m */,
+				17F2D8A01BA34173004D4E46 /* ProductCard_BuyCellContent.h */,
+				17F2D8A11BA34173004D4E46 /* ProductCard_BuyCellContent.m */,
+				17F2D89D1BA3088F004D4E46 /* ProductCard_BuyCell.h */,
+				17F2D89E1BA3088F004D4E46 /* ProductCard_BuyCell.m */,
+				17F2D88B1BA1ED3C004D4E46 /* Product.h */,
+				17F2D88C1BA1ED3C004D4E46 /* Product.m */,
+				1780BC771BA4AD1F00D19E92 /* ShippingMethod.h */,
+				1780BC781BA4AD1F00D19E92 /* ShippingMethod.m */,
+				1771839A1BA174DB0067A1D7 /* Main.storyboard */,
+				1771839F1BA174DB0067A1D7 /* LaunchScreen.xib */,
+				1771839D1BA174DB0067A1D7 /* Images.xcassets */,
+				177183901BA174DB0067A1D7 /* Supporting Files */,
+			);
+			name = MerchantApp;
+			path = merchantapp;
+			sourceTree = "<group>";
+		};
+		177183901BA174DB0067A1D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17F2D8A51BA42166004D4E46 /* Stripe.framework */,
+				177183911BA174DB0067A1D7 /* Info.plist */,
+				177183921BA174DB0067A1D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1771838C1BA174DB0067A1D7 /* MerchantApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177183B01BA174DB0067A1D7 /* Build configuration list for PBXNativeTarget "MerchantApp" */;
+			buildPhases = (
+				177183891BA174DB0067A1D7 /* Sources */,
+				1771838A1BA174DB0067A1D7 /* Frameworks */,
+				1771838B1BA174DB0067A1D7 /* Resources */,
+				176C3D191BD443DB006FE99E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MerchantApp;
+			productName = MerchantApp;
+			productReference = 1771838D1BA174DB0067A1D7 /* MerchantApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177183851BA174DB0067A1D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nerd Brawn";
+				TargetAttributes = {
+					1771838C1BA174DB0067A1D7 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 72WAP749LX;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 0;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 177183881BA174DB0067A1D7 /* Build configuration list for PBXProject "MerchantApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 177183841BA174DB0067A1D7;
+			productRefGroup = 1771838E1BA174DB0067A1D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1771838C1BA174DB0067A1D7 /* MerchantApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1771838B1BA174DB0067A1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1771839C1BA174DB0067A1D7 /* Main.storyboard in Resources */,
+				174E84061BACB631006321F8 /* MerchantApp.entitlements in Resources */,
+				177183A11BA174DB0067A1D7 /* LaunchScreen.xib in Resources */,
+				1771839E1BA174DB0067A1D7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177183891BA174DB0067A1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177183991BA174DB0067A1D7 /* ProductList.m in Sources */,
+				17F2D89C1BA2DED8004D4E46 /* ProductCard_TableView.m in Sources */,
+				17F2D8991BA2CCE5004D4E46 /* RestIO.m in Sources */,
+				1780BC791BA4AD1F00D19E92 /* ShippingMethod.m in Sources */,
+				17F2D8A21BA34173004D4E46 /* ProductCard_BuyCellContent.m in Sources */,
+				17F2D8961BA2CBE5004D4E46 /* ProductCard_ImageCell.m in Sources */,
+				17F2D8901BA254A6004D4E46 /* ProductCard.m in Sources */,
+				17F2D8931BA26610004D4E46 /* ProductCard_DescriptionCell.m in Sources */,
+				17F2D88D1BA1ED3C004D4E46 /* Product.m in Sources */,
+				177183961BA174DB0067A1D7 /* AppDelegate.m in Sources */,
+				17F2D89F1BA3088F004D4E46 /* ProductCard_BuyCell.m in Sources */,
+				177183931BA174DB0067A1D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1771839A1BA174DB0067A1D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1771839B1BA174DB0067A1D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1771839F1BA174DB0067A1D7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177183A01BA174DB0067A1D7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		177183AE1BA174DB0067A1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SOURCE_ROOT)/merchantapp/Stripe.framework/Versions/A/Headers",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		177183AF1BA174DB0067A1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SRCROOT/merchantapp/Stripe.framework/Versions/A/Headers,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		177183B11BA174DB0067A1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MerchantApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/merchantapp",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SRCROOT/merchantapp/Stripe.framework/Versions/A/Headers,
+				);
+				INFOPLIST_FILE = merchantapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdbrawn.MerchantApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		177183B21BA174DB0067A1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MerchantApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/merchantapp",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SRCROOT/merchantapp/Stripe.framework/Versions/A/Headers,
+				);
+				INFOPLIST_FILE = merchantapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdbrawn.MerchantApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177183881BA174DB0067A1D7 /* Build configuration list for PBXProject "MerchantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177183AE1BA174DB0067A1D7 /* Debug */,
+				177183AF1BA174DB0067A1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177183B01BA174DB0067A1D7 /* Build configuration list for PBXNativeTarget "MerchantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177183B11BA174DB0067A1D7 /* Debug */,
+				177183B21BA174DB0067A1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 177183851BA174DB0067A1D7 /* Project object */;
+}
